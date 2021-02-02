@@ -1,0 +1,236 @@
+/* body样式 */
+
+body {
+    background-image: url(../sucai/focus-bk.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    text-align: center;
+}
+
+
+/* 父容器#container的样式 */
+
+#container {
+    border-radius: 100px;
+    margin: 120px auto 30px auto;
+    width: 960px;
+    height: 1160px;
+    background-color: rgba(176, 224, 230, 0.8);
+    text-align: center;
+}
+
+
+/* 页眉#top */
+
+#top {
+    height: 100px;
+    padding-top: 80px;
+}
+
+#top section {
+    float: left;
+    height: 100px;
+    width: 560px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90px;
+    line-height: 90px;
+    color: #fffff0;
+}
+
+#top form {
+    float: right;
+    height: 40px;
+    width: 300px;
+    padding-top: 60px;
+}
+
+
+/* 焦点#focus */
+
+#focus {
+    height: 200px;
+    background: url(../sucai/focus-bk4.jpg) center;
+    opacity: 0.6;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#focus:hover {
+    opacity: 1;
+}
+
+
+/* 导航栏#navi */
+
+#navi {
+    height: 50px;
+    margin: 0 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navi ul {
+    height: 30px;
+    list-style-type: none;
+    padding: 0px;
+    float: right;
+}
+
+#navi li {
+    float: left;
+    width: 160px;
+    padding: 5px 5px 5px 0.5em;
+}
+
+#navi li:hover {
+    background-color: #ffa500;
+}
+
+#navi li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 页脚#foot部分 */
+
+#foot {
+    height: 150px;
+    border-radius: 50px;
+}
+
+.navi2 {
+    margin: 10px;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.navi2 a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.navi2 span {
+    padding: 0 28px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.copy {
+    margin-top: 30px;
+    font-size: 15px;
+    color: black;
+}
+
+.navi3 {
+    min-width: 1000px;
+    height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navi3 ul {
+    height: 30px;
+    list-style-type: none;
+    padding: 0px;
+    float: right;
+}
+
+.navi3 li {
+    float: left;
+    width: 160px;
+    /* padding: 5px 5px 5px 0.5em; */
+}
+
+.navi3 li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 主要#main内容 */
+
+#main {
+    margin: 30px 0;
+    height: 540px;
+    border-radius: 10px;
+}
+
+#left,
+#center,
+#right {
+    float: left;
+    width: 290px;
+    height: 500px;
+    background-color: #ffee99;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+
+/* 主要内容排行榜各个榜分区 */
+
+.list {
+    float: left;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.more {
+    float: right;
+    font-size: 20px;
+    margin-left: 5px;
+    list-style-type: none;
+}
+
+.more:hover {
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+
+.more a {
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    float: left;
+    width: 280px;
+    height: 140px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.row:hover {
+    background-color: #f66;
+}
+
+.number1 {
+    background-color: orange;
+    width: 40px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.baike {
+    float: left;
+    width: 80px;
+    height: 20px;
+    font-size: 20px;
+    margin: -70px 40px 0 210px;
+    list-style-type: none;
+}
+
+.baike:hover {
+    background-color: #faebd7;
+    border-radius: 10px;
+}
+
+.baike a {
+    text-decoration: none;
+    color: black;
+}

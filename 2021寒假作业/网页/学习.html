@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>表单实验</title>
+    <style type="text/css">
+        body {
+            color: #1c3b02;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="form1" action="" method="POST">
+        <fieldset>
+            <legend>申请注册</legend>
+            <table>
+                <tr>
+                    <td>用户名：</td>
+                    <td><input type="text" name="mingzi" placeholder="用户名" required="required" autofocus="autofocus"></td>
+
+                </tr>
+                <tr>
+                    <td>密码:</td>
+                    <td> <input type="password" name="password_1" required="required" autofocus="autofocus"></td>
+                </tr>
+                <tr>
+                    <td>确认密码；</td>
+                    <td><input type="password" name="password_2" required="required" autofocus="autofocus"></td>
+                </tr>
+                <tr>
+                    <td>性别:</td>
+                    <td><input type="radio" name="sex" checked="checked">男
+                        <input type="radio" name="sex">女
+                    </td>
+                </tr>
+                <tr>
+                    <td>爱好:</td>
+                    <td>
+                        <input type="checkbox" name="habbit">阅读
+                        <input type="checkbox" name="habbit">运动
+                        <input type="checkbox" name="habbit">烹饪<br>
+                        <input type="checkbox" name="habbit">音乐
+                        <input type="checkbox" name="habbit">跳舞
+                        <input type="checkbox" name="habbit">旅游
+                    </td>
+                </tr>
+                <tr>
+                    <td>出身年月：</td>
+                    <td><input type="date" name="brithday"></td>
+                </tr>
+                <tr>
+                    <td>身高:</td>
+                    <td><input type="number" name="year" min="1" max="200" placeholder="身高"></td>
+
+                </tr>
+                <tr>
+                    <td>简介:</td>
+                    <td><textarea name="introduction" id="" cols="30" rows="10">请添加描述</textarea></td>
+                </tr>
+
+                <tr>
+                    <td>个人照片:</td>
+                    <td><input type="file" name="image"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="注册"></td>
+                    <td><input type="reset" name="reset" value="重置"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+
+
+
+    </form>
+</body>
+
+</html>
